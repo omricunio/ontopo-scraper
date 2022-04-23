@@ -1,0 +1,83 @@
+{
+    "page": {
+        "title": "מצאנו מספר מקומות פנויים עבורך",
+        "showLess": "תראו לי פחות",
+        "showMore": "תראו לי יותר",
+        "subtitle": "ל%date% בסביבות %time% עבור %size%",
+        "generalError": "מצטערים, נראה שנתקלת בשגיאה במערכת"
+    },
+    "areas": [
+        {
+            "id": "בפנים",
+            "icon": "restaurant",
+            "name": "בפנים",
+            "text": "",
+            "options": [
+                {
+                    "time": "2200",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 3
+                },
+                {
+                    "time": "2215",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 2
+                },
+                {
+                    "time": "2230",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 1
+                },
+                { "time": "2245", "method": "disabled", "score": 4 },
+                { "time": "2300", "method": "disabled", "score": 5 }
+            ],
+            "score": 1
+        },
+        {
+            "id": "בר",
+            "icon": "bar",
+            "name": "בר",
+            "text": "",
+            "options": [
+                {
+                    "time": "2200",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 3
+                },
+                {
+                    "time": "2215",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 2
+                },
+                {
+                    "time": "2230",
+                    "method": "seat",
+                    "text": "אישור מיידי",
+                    "score": 1
+                },
+                { "time": "2245", "method": "disabled", "score": 4 },
+                { "time": "2300", "method": "disabled", "score": 5 }
+            ],
+            "score": 2
+        }
+    ],
+    "recommended": [
+        { "id": "בפנים", "time": "2230", "method": "seat", "text": "בפנים" },
+        { "id": "בר", "time": "2230", "method": "seat", "text": "בר" }
+    ],
+    "method": "seat",
+    "formattedRequest": {
+        "date": "שבת 30 באפריל",
+        "mediumDate": "שבת 30 באפר׳",
+        "shortDate": "שבת 30 באפר׳",
+        "time": "22:30",
+        "size": "2 אנשים",
+        "service": "2 אנשים"
+    },
+    "availability_id": "61d747848928b5000fa697b9"
+}
